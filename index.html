@@ -1,0 +1,261 @@
+<!DOCTYPE html lang-en>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Many</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <script src="assets/javascript/app.js"></script>
+
+    <div class="start">
+
+        <h1>HOW MANY???</h1>
+        <br>
+        <h3>Ten Questions</h3>
+        <br>
+        <p>Here are ten multiple=choice questions.
+            <br><br>You will have 60 seconds to answer all ten.
+            <br><br>(Suggestion: If you do not have a quick answer, move on.
+            <br><br>You can pick only one answer, but you can change your mind.
+            <br><br>When the time expires, you will receive your results.
+            <br><br>Refresh the screen to play again.
+            <br><br>Good luck!
+        </p>
+        <br><br>
+        <button class="starter">I'm Ready - Show me the Questions!</button>
+    </div>
+
+    <div class="run">
+        <h1>HOW MANY???</h1>
+        <div id="insert">
+        </div>
+        <div id="label"> Seconds Remaining</div>
+
+        <p id="q1">How many people have served as president of the US?</p>
+        <br>
+        <label class="container">43
+            <input type="radio" name="a1" value= "1">
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="container">44
+            <input type="radio" name="a1" value= "2">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">45
+             <input type="radio" name="a1" value= "3">
+             <span class="checkmark"></span>
+        </label>
+        <label class="container">46
+            <input type="radio" name="a1" value= "4">
+            <span class="checkmark"></span>
+        </label>
+        <br>
+
+        <p id="q2">How many players on an NFL regular season roster?</p>
+        <br>
+        <label class="container">44
+            <input type="radio" name="a2" value= "1">
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="container">53
+            <input type="radio" name="a2" value= "2">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">62
+             <input type="radio" name="a2" value= "3">
+             <span class="checkmark"></span>
+        </label>
+        <label class="container">71
+            <input type="radio" name="a2" value= "4">
+            <span class="checkmark"></span>
+        </label>
+        <br>
+
+        <p id="q3">How many grams in a pound?</p>
+        <br>
+        <label class="container">395
+            <input type="radio" name="a3" value= "1">
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="container">454
+            <input type="radio" name="a3" value= "2">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">593
+             <input type="radio" name="a3" value= "3">
+             <span class="checkmark"></span>
+        </label>
+        <label class="container">1200
+            <input type="radio" name="a3" value= "4">
+            <span class="checkmark"></span>
+        </label>
+        <br>
+
+        <p id="q4">How many players in a game of doubles?</p>
+        <br>
+        <label class="container">2
+            <input type="radio" name="a4" value= "1">
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="container">4
+            <input type="radio" name="a4" value= "2">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">6
+             <input type="radio" name="a4" value= "3">
+             <span class="checkmark"></span>
+        </label>
+        <label class="container">8
+            <input type="radio" name="a4" value= "4">
+            <span class="checkmark"></span>
+        </label>
+        <br>
+
+        <p id="q5">How many episodes in a TV season?</p>
+        <br>
+        <label class="container">6
+            <input type="radio" name="a5" value= "1">
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="container">8
+            <input type="radio" name="a5" value= "2">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">12
+             <input type="radio" name="a5" value= "3">
+             <span class="checkmark"></span>
+        </label>
+        <label class="container">13
+            <input type="radio" name="a5" value= "4">
+            <span class="checkmark"></span>
+        </label>
+        <br>
+
+        <p id="q6">How many shoes in one pair?</p>
+        <br>
+        <label class="container">0
+            <input type="radio" name="a6" value= "1">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">1
+            <input type="radio" name="a6" value= "2">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">2
+             <input type="radio" name="a6" value= "3">
+             <span class="checkmark"></span>
+        </label>
+        <label class="container">3
+            <input type="radio" name="a6" value= "4">
+            <span class="checkmark"></span>
+        </label>
+        <br>
+
+        <p id="q7">How many blackbirds in a pie?</p>
+        <br>
+        <label class="container">5
+            <input type="radio" name="a7" value= "1">
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="container">12
+            <input type="radio" name="a7" value= "2">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">18
+             <input type="radio" name="a7" value= "3">
+             <span class="checkmark"></span>
+        </label>
+        <label class="container">24
+            <input type="radio" name="a7" value= "4">
+            <span class="checkmark"></span>
+        </label>
+        <br>
+
+        <p id="q8">How many seas must a white dove sail until she sleeps in the sand?</p>
+        <br>
+        <label class="container">1
+            <input type="radio" name="a8" value= "1">
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="container">10
+            <input type="radio" name="a8" value= "2">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">100
+             <input type="radio" name="a8" value= "3">
+             <span class="checkmark"></span>
+        </label>
+        <label class="container">I dont'know!
+            <input type="radio" name="a8" value= "4">
+            <span class="checkmark"></span>
+        </label>
+        <br>
+
+        <p id="q9">How many times do have to tell you?</p>
+        <br>
+        <label class="container">2
+            <input type="radio" name="a9" value= "1">
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="container">4
+            <input type="radio" name="a9" value= "2">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">10
+             <input type="radio" name="a9" value= "3">
+             <span class="checkmark"></span>
+        </label>
+        <label class="container">Forever!
+            <input type="radio" name="a9" value= "4">
+            <span class="checkmark"></span>
+        </label>
+        <br>
+
+        <p id="q10">How many blondes does it take to change a light bulb?</p>
+        <br>
+        <label class="container">0
+            <input type="radio" name="a10" value= "1">
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="container">1
+            <input type="radio" name="a10" value= "2">
+            <span class="checkmark"></span>
+        </label>
+        <label class="container">2
+             <input type="radio" name="a10" value= "3">
+             <span class="checkmark"></span>
+        </label>
+        <label class="container">3
+            <input type="radio" name="a10" value= "4">
+            <span class="checkmark"></span>
+        </label>
+        <br>
+    </div>
+
+    <div class="end">
+        <h4>HOW MANY???</h4>
+        <h4 id="rightCount">right</h4>
+        <h4 id="wrongCount">wrong</h4>
+        <h4 id="unansweredCount">unanswered</h4>
+    </div>
+
+</body>
+
+</html>

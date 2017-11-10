@@ -1,0 +1,141 @@
+.start {
+    font-size: 20;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 100px;
+    border: 5px;
+    border-color: #0066ff;
+    display: block;
+}
+
+.starter {
+    margin: auto;
+    height: 50px;
+    color: #0066ff;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.starter:hover {
+    background-color: #99ccff;
+}
+
+#label {
+    color: #0066ff;
+    font-size: 20;
+    padding-bottom: 25;
+}
+
+.run {
+    display: block;
+}
+
+.end {
+    display: block;
+}
+
+h1 {
+    color: #0066ff;
+    font-size: 28;
+}
+
+
+h2 {
+    Height: 50px;
+    font-size: 36px;
+    padding-top: 15;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 24;
+    margin: 40px;
+}
+
+.run {
+    text-align: center;
+}
+
+.run p {
+    font-size: 20;
+}
+
+.end {
+    text-align: center;
+}
+
+
+
+/* Radio Buttons
+
+ The container */
+
+.container {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hide the browser's default radio button */
+
+.container input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom radio button */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+    border-color: black;
+    border-width: medium;
+}
+
+/* On mouse-over, add a grey background color */
+
+.container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+
+.container input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+
+.container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
